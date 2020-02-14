@@ -5,10 +5,6 @@
 a=10
 b=20
 
-# ADDITION
-c=$(( $a+$b ))
-echo $c
-
-# SUBTRACTION
-d=$(( $a-$b ))
-echo $d
+# MODULUS
+z=$(( $a % $b))
+echo $z
