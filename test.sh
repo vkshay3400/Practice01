@@ -5,7 +5,6 @@
 a=10
 b=20
 
-# MULTIPLICATION
-c=$(( $a*$b ))
-echo $c
-
+# MODULUS
+z=$(( $a % $b))
+echo $z
